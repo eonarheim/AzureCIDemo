@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "availability_alert_name": {
+            "value": "example-test-alert"
+        },
+        "app_insights_name": {
+            "value": "example-insights"
+        },
+        "availability_test_name": {
+            "value": "example-availability-test"
+        },
+        "app_service_plan_name": {
+            "value": "example-ap"
+        },
+        "web_app_name": {
+            "value": "azureci-example"
+        },
+        "db_name": {
+            "value": "azureciexample2_db_a"
+        }
+    }
+}
